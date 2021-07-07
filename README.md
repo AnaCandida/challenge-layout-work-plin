@@ -1,0 +1,2 @@
+# challenge-layout-work-plin
+Projeto para treinar - iniciantes em HTML e CSS - Designed by Lucas Bomfim.  Desenvolvi o desafio com HTML semântico e com boas práticas de acessibilidade. Apliquei a proposta de mobile first  com foco em responsividade, e conforme for aprendendo vou ajustando os detalhes e aperfeiçoando o layout. Também incrementei com algumas animações que aprendi recentemente no evento da Nlw-togheter da Rockeseat.
