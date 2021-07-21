@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!--   usar lang="en" nos elementos em que houver um segundo idiota para os leitores de texto -->
+  <!--   usar lang="en" nos elementos em que houver um segundo idioma para os leitores de texto -->
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -26,42 +26,36 @@
   </head>
 
   <body>
-    <header role="banner" id="header">
-      <div class="elipse"></div>
-      <section role="text" class="logo1">Work <spam> plin</spam></section>
+    <header role="banner" class="c-header">
+      <h1 role="text" class="c-header__logo">Work <spam> plin</spam></h1>
 
-      <nav  role="navigation" aria-level="main navigation">
-        <ul role="menu" class="menu">
-          <a role="menuitem" href="#"> About </a>
-          <a role="menuitem" href="#"> Places </a>
-          <a role="menuitem" href="#"> Contact </a>
+      <nav role="navigation" aria-level="main navigation">
+        <ul role="menu" class="c_menu">
+          <a role="menuitem" class="c_menu_item" href="#"> About </a>
+          <a role="menuitem" class="c_menu_item" href="#"> Places </a>
+          <a role="menuitem" class="c_menu_item" href="#"> Contact </a>
         </ul>
       </nav>
     </header>
 
-    <main role="main">
-      
-        <section class="image">
-          <h1 class="slogan1"><spam>Everythin</spam> in <br />one click.</h1>
-          <img
-            src="img/illustration.png"
-            alt="ilustração com duas pessoas usando a internet, uma pelo notebook e outra pelo tablet.Cada uma sentada em um balão de conversa roxo, com um distanciamento curto entre elas."
-            title="pessoas conversando pela internet"
-          />
-        </section>
-      </section>
-      <section class="slogan2">
-        <h2>Find your <spam>plin</spam>!</h2>
-      </section>
+    <main role="main" class="c_main">
+      <h2 class="c_main_slogan1"><spam>Everythin</spam> in <br />one click.</h2>
+      <img
+        class="c-main_img"
+        src="img/illustration.png"
+        alt="ilustração com duas pessoas usando a internet, uma pelo notebook e outra pelo tablet.Cada uma sentada em um balão de conversa roxo, com um distanciamento curto entre elas."
+        title="pessoas conversando pela internet"
+      />
+      <h2 class="c_main_slogan2">Find your <spam>plin</spam>!</h2>
 
-      <section class="questions">
-        <section class="block2">
-          <h3 class="large">How many people?</h3>
-          <h3 class="large">For how long?</h3>
-          <h3 class="large">Your best email?</h3>
+      <section class="c_main_questions">
+        <section class="c_questions">
+          <h3 class="c_questions__item">How many people?</h3>
+          <h3 class="c_questions__item">For how long?</h3>
+          <h3 class="c_questions__item">Your best email?</h3>
         </section>
 
-        <p id="text">
+        <p class="c_questions_text">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
           doloremque, rerum id perferendis, dicta voluptate exercitationem
           obcaecati, saepe tempora in numquam laboriosam libero provident
@@ -69,15 +63,21 @@
         </p>
       </section>
 
-      <button>Submit</button>
+      <button class="c_questions__button">Submit</button>
     </main>
 
-    <footer role="contentinfo" id="footer">
-      <h1 class="logo2">Work plin</h1>
-      <ul role="contact-list" class="contact">
-        <li><a role="contact-list-item" href="#"> Blog </a></li>
-        <li><a role="contact-list-item" href="#"> Join Us </a></li>
-        <li><a role="contact-list-item" href="#"> Help </a></li>
+    <footer role="contentinfo" class="c_footer">
+      <h1 class="c_footer_slogan">Work plin</h1>
+      <ul role="contact-list" class="c_footer__contact">
+        <li>
+          <a role="contact-list-item" href="#"> Blog </a>
+        </li>
+        <li>
+          <a role="contact-list-item" href="#"> Join Us </a>
+        </li>
+        <li>
+          <a role="contact-list-item" href="#"> Help </a>
+        </li>
       </ul>
     </footer>
   </body>
