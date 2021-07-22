@@ -17,7 +17,7 @@ li {
 body {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -33,10 +33,10 @@ body {
   --elipse: var(#c4c4c4 50%);
 }
 
-body::before {
+/*body::before {
   background: #c4c4c4;
   border-radius: 50%;
-  width: 25rem;
+  width: 20rem;
   height: 29rem;
   z-index: -1;
   position: absolute;
@@ -44,7 +44,7 @@ body::before {
   top: -270px;
   transform: scaleY(0.7) rotate(45deg);
   right: -200px;
-}
+}*/
 
 .c-header__logo {
   position: relative;
